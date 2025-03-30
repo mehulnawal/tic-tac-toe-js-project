@@ -1,6 +1,13 @@
 #mainTitle {
     margin-left: -15%;
-    /* width: fit-content; */
+}
+
+@media (max-width: 575px) {
+
+    #mainTitle,
+    #date {
+        margin-left: 2% !important;
+    }
 }
 
 

@@ -206,6 +206,8 @@ restart.addEventListener("click", function () {
         strike.style.display = "none";
         xTurn.style.backgroundColor = "white";
         xTurn.style.color = "black";
+        oTurn.style.backgroundColor = "white";
+        oTurn.style.color = "black";
 
     }
 })

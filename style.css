@@ -1,0 +1,82 @@
+#mainTitle {
+    margin-left: -15%;
+    /* width: fit-content; */
+}
+
+
+.playerTrun {
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    border-radius: 5px;
+    padding: 0.1px 50px;
+    font-size: 24px;
+}
+
+.activeTurn {
+    border-bottom: 3px solid green;
+}
+
+.boxMain {
+    position: relative;
+    width: fit-content;
+    margin: 0px auto;
+
+    .boxBody {
+        cursor: default;
+        height: 80px;
+        width: 85px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        i {
+            font-size: 25px;
+        }
+    }
+
+    .boxCard1,
+    .boxCard2,
+    .boxCard3 {
+        border: none;
+    }
+
+    .boxCard1,
+    .boxCard2 {
+        div {
+            border-bottom: 1.5px solid #000;
+            border-right: 1.5px solid #000;
+        }
+    }
+
+    .boxCard2,
+    .boxCard3 {
+        div {
+            border-top: 1.5px solid #000;
+            border-right: 1.5px solid #000;
+        }
+    }
+
+    #box3,
+    #box6,
+    #box9 {
+        border-right: none;
+    }
+}
+
+#restart {
+    padding: 5px 20px;
+    display: block;
+    margin: 25px auto;
+    border-radius: 5px;
+}
+
+.winning-strike {
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 2px;
+    width: 100%;
+    background-color: green;
+    display: none;
+    transition: opacity 0.3s ease-in-out;
+}
